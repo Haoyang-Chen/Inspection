@@ -1,0 +1,35 @@
+.riskLevelCon {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  .riskLevel {
+    background:#ffcc99;
+    color:#ff8350;
+    width: 120px;
+    line-height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+.rowTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.warn-status {
+  display: inline-block;
+  padding: 0px 10px;
+  text-align: center;
+}
+.warn-red {
+  color: white;
+  background: red;
+}
+.warn-yellow {
+  color: #666;
+  background: yellow;
+}
